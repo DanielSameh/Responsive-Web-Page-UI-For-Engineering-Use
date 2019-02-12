@@ -302,6 +302,54 @@ div.login-text p{
 }
 
 
+div.login-text{
+    color: white;
+    text-align: center;
+    line-height: 2px;
+}
+div.login-text h1{
+    font-weight: bold;
+}
+div.login-text p{
+    font-size: 20px;
+    line-height: 1;
+}
+#sign-in{
+        position: relative;
+       
+        background-image: url("bg2.jpg");
+        height: 40%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+  
+}
+form.form-inline input{
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30px;
+}
+form.form-inline button
+{
+    background-color: darkorange;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 6px 43px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 10px;
+    cursor: pointer;
+}
+form.form-inline button:hover{
+    background-color: orange;}
+
+
+
 
 
 
@@ -330,7 +378,17 @@ div.login-text p{
     }
 
  }
-
+ @media screen and (max-width: 769px){
+    #sign-in input.form-control{
+        width: 100%;
+    }
+    form.form-inline button
+{
+    margin-left: 30%;
+    width: 40%;
+    
+}
+ }
 @media screen and (max-width: 750px){
     ul.topnav li:not(:nth-child(1)){
         display: none;
