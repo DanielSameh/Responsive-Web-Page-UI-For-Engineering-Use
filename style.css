@@ -137,7 +137,7 @@ div.text-head button:hover{
       .grey-bac{
         position: absolute;
         top: 20px;
-        bottom: 0px;
+        bottom: -10px;
         left: 0;
         right: 0;
         
@@ -152,7 +152,8 @@ div.text-head button:hover{
     display: block;
     margin:0;
     padding: 3px;
-    padding-bottom: 3px;
+    padding-top: 1px;
+    padding-bottom:15px; 
     box-shadow: 0px 8px 30px -5px rgba(184,184,184,1);
     background: WHITE;
     
@@ -272,8 +273,31 @@ table th {
   background-color:#4d4e50;
   color: white;
 }
-
-
+div.login-text{
+    color: white;
+    text-align: center;
+    line-height: 2px;
+}
+div.login-text h1{
+    font-weight: bold;
+}
+div.login-text p{
+    font-size: 20px;
+}
+#sign-in{
+        position: relative;
+       
+        background-image: url("bg2.jpg");
+        height: 40%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+  
+}
+#sign-in input.form-control{
+    width: 33.33%;
+}
 
 
 
@@ -284,6 +308,26 @@ table th {
 
 
  /*############# Mobile View ##########*/
+ @media screen and (max-width: 991px){
+    ul.topics li h4{
+        position: absolute;
+        bottom: 70px;
+        left: 170px;
+        float: right;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    ul.topics li p{
+        position: absolute;
+        bottom: 20px;
+        left: 170px;
+        float: right;
+        
+        font-size: 20px;
+        color: grey;
+    }
+
+ }
 
 @media screen and (max-width: 750px){
     ul.topnav li:not(:nth-child(1)){
@@ -324,7 +368,7 @@ table th {
 
     div.text-head p{
         font-size: 25px;
-        line-height: 19px;
+        line-height: 22px;
         
     }
     
@@ -353,16 +397,21 @@ table th {
 
 .box-ctf p{
     line-height: 5px;
-    padding-bottom:20px; 
+    padding-bottom:16px;
+   
 }
 
 ul.topics  {
     display: inline;
     float: none;
 }
+ul.topics li{
+   
+ 
+}
 ul.topics li p{
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     left: 170px;
     float: right;
     
