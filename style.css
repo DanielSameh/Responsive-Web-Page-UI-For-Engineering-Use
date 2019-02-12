@@ -38,7 +38,7 @@ ul.topnav li article {
     display: block;
     text-decoration: none;
     min-height: 16px;
-    padding: 14px;
+    padding: 7px;
     text-align: center;
     color: white;
     text-transform: uppercase;
@@ -102,6 +102,7 @@ div.text-head h1 {
 }
 div.text-head p{
     font-size: 25px;
+    line-height: 25px;
     
 }
 div.text-head p.p2{
