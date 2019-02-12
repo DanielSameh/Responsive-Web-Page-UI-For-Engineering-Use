@@ -225,6 +225,7 @@ ul.topics li icon{
     
 
 }
+
 ul.topics li h4{
     position: absolute;
     bottom: 90px;
@@ -401,15 +402,14 @@ div.login-text p{
     padding-bottom:16px;
    
 }
-
+ul.topics li {
+    padding: 1px;
+}
 ul.topics  {
     display: inline;
     float: none;
 }
-ul.topics li{
-   
- 
-}
+
 ul.topics li p{
     position: absolute;
     bottom: 20px;
