@@ -401,13 +401,52 @@ div.box-ad button:hover{
   .car-width{
       width: 100%;
   }
+  #Map{
+    position: relative;
+  }
+  .overlay-text{
+    position: absolute;
+    top: 19%;
+    bottom: 10%;
+    left: 55%;
+    right: 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+  }
 /* ##################################### */
 
 
+div.overlay-text h2{
+color: white;
+text-align: center;
+font-weight: bold;
 
-
-
-
+}
+div.overlay-text p{
+    color: white;
+    text-align: center; 
+    
+}
+div.overlay-text form input.form-control{
+   
+    margin-left: 2%;
+}
+div.overlay-text form input.names{
+    width: 45%;
+    height: 50px;
+  
+}
+div.overlay-text form input.description{
+    block-size: 100%;
+    width: 93.333%;
+    height: 120px;
+   
+}
+div.overlay-text form button{
+    width: 94%;
+    height: 50px;
+  
+}
 
 
 
@@ -551,4 +590,11 @@ ul.topics li p{
     
     font-size: 20px;
     color: grey;
+}
+.car-width{
+ display: none;
+}
+.overlay-text{
+    display: none;
+    size: i
 }
