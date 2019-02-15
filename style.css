@@ -447,7 +447,12 @@ div.overlay-text form button{
     height: 50px;
   
 }
-
+#footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
 
 
 
@@ -469,6 +474,10 @@ div.overlay-text form button{
         
         font-size: 20px;
         color: grey;
+    }
+    .overlay-text{
+        display: none;
+        size: i
     }
 
  }
@@ -593,8 +602,4 @@ ul.topics li p{
 }
 .car-width{
  display: none;
-}
-.overlay-text{
-    display: none;
-    size: i
 }
